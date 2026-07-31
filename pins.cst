@@ -1,0 +1,15 @@
+// Saat Sinyali
+IO_LOC "clk" 4;
+IO_PORT "clk" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+
+// Buton (S1)
+IO_LOC "btn" 88;
+IO_PORT "btn" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+
+// 1. LED
+IO_LOC "led" 15;
+IO_PORT "led" IO_TYPE=LVCMOS33 DRIVE=8;
+
+// 2. LED
+IO_LOC "led2" 16;
+IO_PORT "led2" IO_TYPE=LVCMOS33 DRIVE=8; 
