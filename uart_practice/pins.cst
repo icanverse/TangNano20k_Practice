@@ -1,0 +1,27 @@
+// 27 MHz Sistem Saati
+IO_LOC "clk" 4;
+IO_PORT "clk" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+
+// UART RX Pini (Bilgisayardan Gelen Veriyi Dinleyen Hat)
+IO_LOC "uart_rx" 70;
+IO_PORT "uart_rx" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+
+// UART TX Pini (Bilgisayara Veri Gönderen Hat)
+IO_LOC "uart_tx" 69;
+IO_PORT "uart_tx" IO_TYPE=LVCMOS33 DRIVE=8;
+
+// Kontrol Edeceğimiz 1. LED (RX Testi)
+IO_LOC "led15" 15;
+IO_PORT "led15" IO_TYPE=LVCMOS33 DRIVE=8;
+
+// Kontrol Edeceğimiz 2. LED (TX Testi)
+IO_LOC "led16" 16;
+IO_PORT "led16" IO_TYPE=LVCMOS33 DRIVE=8;
+
+// PWM LED
+IO_LOC "led17" 17;
+IO_PORT "led17" IO_TYPE=LVCMOS33 DRIVE=8;
+
+//
+IO_LOC "led18" 18;
+IO_PORT "led18" IO_TYPE=LVCMOS33 DRIVE=8;
